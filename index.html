@@ -4,20 +4,35 @@
         JavaScript Comment
     </title>
     <link rel="stylesheet" type="text/css" href="comment.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  
 </head>
 
 <body>
-    <div id="comment">
-        <img src="./assets/img.jpg">
-        <p id="name">Name</p>
-        <p id="author">Author</p>
-        <p id="posted">Time</p>
-        <p id="message">Message</p>
-        <button type="button" id="reply">Reply</button>
-        <button type="button" id="replies">Replies</button>
-        <button type="button" id="up">upvotes</button>
-        <button type="button" id="down">downvotes</button>
-
+    <div>
+        <p> &nbsp;</p>
+    </div>
+    <div id="container">
+        <img src="./assets/img.jpg" id="avatar">
+    <table id="comment">
+        <tr>
+            <td id="name">Brad</td>
+            <td id="author" ><span class="badge badge-pill badge-dark">AUTHOR</span></td>
+            <td id="posted">&#183; Time posted</td>
+        </tr>
+        <tr>
+            <td id="message" colspan="6"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p></td>
+        </tr>
+        <tr>
+            <td><button id="reply" class="button">Reply</button></td>
+            <td><button id="replies" class="button">Replies</button></td>
+            <td><button id="up" class="button"><i class="fa fa-angle-up"></i> 1234</button></td>
+            <td><button id="down" class="button"><i class="fa fa-angle-down"></i> 1234</button></td>
+        </tr>
+    </table>
     </div>
 </body>
 

@@ -1,0 +1,55 @@
+#container {
+    display: flex;
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+    padding: 20px;
+    width: 600px;
+}
+
+#avatar {
+    justify-content: flex-start;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+
+}
+
+#comment {
+    justify-content: flex-start;
+}
+
+#name {
+ font-weight: bold;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 14px;
+ flex-grow: 2;
+}
+
+#posted {
+    color: gray;
+    text-transform: capitalize;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#message {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+    display: inline-block;
+    border: none;
+    margin: 0;
+    text-decoration: none;
+    background: none;
+    color: lightgray;
+    font-family: sans-serif;
+    line-height: 1;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 0px;
+}
+
+
