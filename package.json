@@ -1,0 +1,22 @@
+{
+  "name": "javascript-comment",
+  "version": "1.0.0",
+  "description": "A Comment made from JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amilford87/javascript-comment.git"
+  },
+  "author": "Alex Milford",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amilford87/javascript-comment/issues"
+  },
+  "homepage": "https://github.com/amilford87/javascript-comment#readme",
+  "dependencies": {
+    "jest": "^25.3.0"
+  }
+}
