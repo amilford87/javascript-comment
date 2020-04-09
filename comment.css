@@ -27,15 +27,22 @@
 }
 
 #posted {
-    color: gray;
+    color: darkgrey;
     text-transform: capitalize;
-    font-size: 10px;
+    font-size: 9.5px;
     font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
 }
 
 #message {
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+}
+
+#message p {
+    padding: 5px 0px 0px 0px;
+    margin: 0px;
 }
 
 .button {
@@ -45,11 +52,31 @@
     text-decoration: none;
     background: none;
     color: lightgray;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 1;
     cursor: pointer;
-    font-size: 12px;
+    font-size: 9.5px;
     padding: 0px;
+    margin-top: 0px;
 }
+
+#replies {
+    padding-left: 5px;
+}
+
+#up-votes {
+    padding-left: 5px;
+}
+
+#down-votes {
+    padding-left: 5px;
+}
+
+#reply-num {
+    color: darkgrey;
+
+}
+
+
 
 
